@@ -1,5 +1,4 @@
 import sys
-print(sys.path)
 from func import sort_int_array
 
 def test_sort_int_array():
