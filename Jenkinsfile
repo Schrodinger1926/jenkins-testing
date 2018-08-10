@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'pytest'
                 sh 'cd cpp_testing && ./make.sh'
             }
         }
