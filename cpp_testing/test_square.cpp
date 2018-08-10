@@ -7,7 +7,7 @@ TEST(squareTest, testingZeroCase){
 }
 
 TEST(squareTest, testingPositiveCase){
-    EXPECT_EQ(square(2), 4);
+    EXPECT_EQ(square(2), 3);
 }
 
 int main(int argc, char* argv[]){
